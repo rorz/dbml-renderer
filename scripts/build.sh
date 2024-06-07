@@ -15,8 +15,8 @@ if git status --porcelain | grep -v -e "^[MADR]\s"; then
 fi
 
 if [[ "${1:-}" == "--release" ]]; then
-    git config user.email "info@softwaretechnik.berlin"
-    git config user.name "Softwaretechnik Berlin"
+    git config user.email "1853310+rorz@users.noreply.github.com"
+    git config user.name "rorz"
 
     npm version patch
     git push

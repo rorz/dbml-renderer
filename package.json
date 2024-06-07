@@ -1,9 +1,9 @@
 {
-  "name": "@softwaretechnik/dbml-renderer",
+  "name": "@rorz/dbml-renderer",
   "version": "1.0.30",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/softwaretechnik-berlin/dbml-renderer.git"
+    "url": "git+https://github.com/rorz/dbml-renderer.git"
   },
   "main": "./lib/api.js",
   "types": "./lib/api.d.ts",
@@ -34,11 +34,7 @@
     "yargs": "^17.7.2",
     "zod": "^3.22.4"
   },
-  "bugs": {
-    "url": "https://github.com/softwaretechnik-berlin/dbml-renderer/issues"
-  },
-  "homepage": "https://github.com/softwaretechnik-berlin/dbml-renderer#readme",
-  "description": "",
+  "description": "[MIRROR] of https://github.com/softwaretechnik-berlin/dbml-renderer",
   "ava": {
     "extensions": [
       "ts"
