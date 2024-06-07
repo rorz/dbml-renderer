@@ -21,5 +21,5 @@ if [[ "${1:-}" == "--release" ]]; then
     npm version patch
     git push
     git push --tags
-    npm publish
+    npm publish --access=public
 fi
